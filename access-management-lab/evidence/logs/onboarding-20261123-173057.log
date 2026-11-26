@@ -1,0 +1,5 @@
+2026-11-23 17:30:57 [INFO] === Onboarding run started by LAB\Administrator | CSV: ..\data\new-hires.csv | Rows: 5 | WhatIf: True ===
+2026-11-23 17:30:57 [WARN] Manager 'pshah' not found for dokafor. Account will be created without a manager
+2026-11-23 17:30:57 [WARN] Group 'ACCESS-Payroll' does not exist. sthompson NOT added (needs follow-up)
+2026-11-23 17:30:57 [INFO] === Run finished. Results: 5 row(s) ===
+2026-11-23 17:30:57 [INFO]   WhatIf: 5

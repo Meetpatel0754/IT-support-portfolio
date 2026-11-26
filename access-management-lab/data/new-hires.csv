@@ -1,0 +1,6 @@
+FirstName,LastName,Department,Title,Manager,Groups,TicketNumber
+Priya,Shah,Sales,Sales Manager,,DEPT-Sales;ACCESS-CRM;ACCESS-VPN,RITM0010001
+Daniel,Okafor,Sales,Account Executive,pshah,DEPT-Sales;ACCESS-CRM,RITM0010001
+Mei,Chen,Finance,Financial Analyst,,DEPT-Finance;ACCESS-SharedDrive,RITM0010001
+Luis,Ramirez,IT,Help Desk Technician,,DEPT-IT;ACCESS-VPN;ACCESS-SharedDrive,RITM0010001
+Sarah,Thompson,HR,HR Coordinator,,DEPT-HR;ACCESS-SharedDrive;ACCESS-Payroll,RITM0010001

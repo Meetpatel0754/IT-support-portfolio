@@ -1,0 +1,4 @@
+"Ticket","Name","SamAccountName","UPN","Status","Notes"
+"RITM0010003","Priya Shah","pshah","pshah@lab.internal","Skipped","Username already exists"
+"RITM0010003","Jordan ","","","Skipped","Missing or invalid first/last name"
+"RITM0010003","Aisha Khan","akhan","akhan@lab.internal","Created with warnings","Manager 'nosuchmanager' not found"

@@ -1,0 +1,2 @@
+2026-11-23 17:57:11 [INFO] === Offboarding run started by LAB\Administrator | User: Administrator | Ticket: TEST | WhatIf: False ===
+2026-11-23 17:57:11 [ERROR] Refusing to offboard protected/current account 'Administrator'. Nothing changed.

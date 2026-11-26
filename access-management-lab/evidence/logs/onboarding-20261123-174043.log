@@ -1,0 +1,10 @@
+2026-11-23 17:40:58 [INFO] === Onboarding run started by LAB\Administrator | CSV: ..\data\test-exceptions.csv | Rows: 3 | WhatIf: False ===
+2026-11-23 17:40:58 [WARN] Row skipped (ticket RITM0010003): username 'pshah' already exists. Needs human review (rehire? different person?)
+2026-11-23 17:40:58 [WARN] Row skipped (ticket RITM0010003): first or last name missing/invalid -> 'Jordan' ''
+2026-11-23 17:40:58 [WARN] Manager 'nosuchmanager' not found for akhan. Account will be created without a manager
+2026-11-23 17:40:58 [INFO] Created user akhan (Aisha Khan) | Systems Analyst, IT | ticket RITM0010003
+2026-11-23 17:40:58 [INFO] Added akhan to DEPT-IT
+2026-11-23 17:40:58 [INFO] Added akhan to ACCESS-VPN
+2026-11-23 17:40:58 [INFO] === Run finished. Results: 3 row(s) ===
+2026-11-23 17:40:58 [INFO]   Skipped: 2
+2026-11-23 17:40:58 [INFO]   Created with warnings: 1

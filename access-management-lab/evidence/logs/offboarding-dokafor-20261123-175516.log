@@ -1,0 +1,12 @@
+2026-11-23 17:55:16 [INFO] === Offboarding run started by LAB\Administrator | User: dokafor | Ticket: RITM0010005 | WhatIf: False ===
+2026-11-23 17:55:20 [INFO] Saved 2 group membership(s) to C:\Lab\scripts\logs\offboarding-dokafor-20261123-175516-groups-removed.csv
+2026-11-23 17:55:20 [INFO] Account disabled
+2026-11-23 17:55:20 [INFO] Password reset to a random value (not recorded)
+2026-11-23 17:55:20 [INFO] Removed from group ACCESS-CRM
+2026-11-23 17:55:20 [INFO] Removed from group DEPT-Sales
+2026-11-23 17:55:20 [INFO] Description set to: DISABLED 2026-11-23 per RITM0010005 | was: Created 2026-11-23 by onboarding script per RITM0010001
+2026-11-23 17:55:20 [INFO] Moved to OU=Disabled,OU=LAB,DC=lab,DC=internal
+2026-11-23 17:55:20 [INFO] Verify - Account disabled: PASS
+2026-11-23 17:55:20 [INFO] Verify - No group memberships: PASS
+2026-11-23 17:55:20 [INFO] Verify - In Disabled OU: PASS
+2026-11-23 17:55:20 [INFO] === Offboarding SUCCESS ===

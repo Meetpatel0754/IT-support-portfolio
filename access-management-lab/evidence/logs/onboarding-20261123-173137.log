@@ -1,0 +1,22 @@
+2026-11-23 17:32:01 [INFO] === Onboarding run started by LAB\Administrator | CSV: ..\data\new-hires.csv | Rows: 5 | WhatIf: False ===
+2026-11-23 17:32:01 [INFO] Created user pshah (Priya Shah) | Sales Manager, Sales | ticket RITM0010001
+2026-11-23 17:32:01 [INFO] Added pshah to DEPT-Sales
+2026-11-23 17:32:01 [INFO] Added pshah to ACCESS-CRM
+2026-11-23 17:32:01 [INFO] Added pshah to ACCESS-VPN
+2026-11-23 17:32:01 [INFO] Created user dokafor (Daniel Okafor) | Account Executive, Sales | ticket RITM0010001
+2026-11-23 17:32:01 [INFO] Added dokafor to DEPT-Sales
+2026-11-23 17:32:01 [INFO] Added dokafor to ACCESS-CRM
+2026-11-23 17:32:01 [INFO] Created user mchen (Mei Chen) | Financial Analyst, Finance | ticket RITM0010001
+2026-11-23 17:32:01 [INFO] Added mchen to DEPT-Finance
+2026-11-23 17:32:01 [INFO] Added mchen to ACCESS-SharedDrive
+2026-11-23 17:32:01 [INFO] Created user lramirez (Luis Ramirez) | Help Desk Technician, IT | ticket RITM0010001
+2026-11-23 17:32:01 [INFO] Added lramirez to DEPT-IT
+2026-11-23 17:32:01 [INFO] Added lramirez to ACCESS-VPN
+2026-11-23 17:32:01 [INFO] Added lramirez to ACCESS-SharedDrive
+2026-11-23 17:32:01 [INFO] Created user sthompson (Sarah Thompson) | HR Coordinator, HR | ticket RITM0010001
+2026-11-23 17:32:01 [INFO] Added sthompson to DEPT-HR
+2026-11-23 17:32:01 [INFO] Added sthompson to ACCESS-SharedDrive
+2026-11-23 17:32:01 [WARN] Group 'ACCESS-Payroll' does not exist. sthompson NOT added (needs follow-up)
+2026-11-23 17:32:01 [INFO] === Run finished. Results: 5 row(s) ===
+2026-11-23 17:32:01 [INFO]   Created: 4
+2026-11-23 17:32:01 [INFO]   Created with warnings: 1

@@ -1,0 +1,2 @@
+2026-11-23 17:57:24 [INFO] === Offboarding run started by LAB\Administrator | User: nobody | Ticket: TEST | WhatIf: False ===
+2026-11-23 17:57:24 [ERROR] User 'nobody' not found. Nothing changed. Check the username in the ticket.

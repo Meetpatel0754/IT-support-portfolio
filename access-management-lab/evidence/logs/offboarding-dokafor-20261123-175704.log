@@ -1,0 +1,2 @@
+2026-11-23 17:57:04 [INFO] === Offboarding run started by LAB\Administrator | User: dokafor | Ticket: TEST | WhatIf: False ===
+2026-11-23 17:57:04 [WARN] User 'dokafor' is already disabled and in the Disabled OU. Nothing to do.

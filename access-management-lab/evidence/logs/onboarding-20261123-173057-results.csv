@@ -1,0 +1,6 @@
+"Ticket","Name","SamAccountName","UPN","Status","Notes"
+"RITM0010001","Priya Shah","pshah","pshah@lab.internal","WhatIf",""
+"RITM0010001","Daniel Okafor","dokafor","dokafor@lab.internal","WhatIf","Manager 'pshah' not found"
+"RITM0010001","Mei Chen","mchen","mchen@lab.internal","WhatIf",""
+"RITM0010001","Luis Ramirez","lramirez","lramirez@lab.internal","WhatIf",""
+"RITM0010001","Sarah Thompson","sthompson","sthompson@lab.internal","WhatIf","Group 'ACCESS-Payroll' not found"

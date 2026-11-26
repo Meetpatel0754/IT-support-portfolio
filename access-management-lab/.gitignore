@@ -1,0 +1,21 @@
+# Secrets: never commit
+*.env
+.env
+credentials*
+*password*
+*.pfx
+*.pem
+
+# Large files
+*.iso
+*.vdi
+*.vhd
+*.vhdx
+*.vmdk
+
+# Live script logs on the DC (copy curated ones to evidence/logs instead)
+scripts/logs/
+
+# OS junk
+Thumbs.db
+.DS_Store
