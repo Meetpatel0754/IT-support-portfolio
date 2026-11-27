@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Lab Network" id="labnet">
+    <mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="box" value="Inside the host laptop (VMware Workstation 17)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;fontStyle=1;arcSize=4;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="760" height="420" as="geometry" />
+        </mxCell>
+
+        <mxCell id="title" value="Lab Network: lab.internal" style="text;html=1;fontSize=20;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="internet" value="&lt;b&gt;Internet&lt;/b&gt;" style="shape=mxgraph.networks.cloud;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="360" y="20" width="120" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="router" value="&lt;b&gt;VMware NAT Gateway&lt;/b&gt;&lt;br&gt;192.168.163.2" style="shape=mxgraph.networks.router;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalLabelPosition=bottom;verticalAlign=top;labelPosition=right;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="380" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="switch" value="&lt;b&gt;VMnet8 virtual switch (NAT)&lt;/b&gt;&lt;br&gt;192.168.163.0/24" style="shape=mxgraph.networks.switch;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalLabelPosition=bottom;verticalAlign=top;labelPosition=right;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="100" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dc01" value="&lt;b&gt;DC01&lt;/b&gt; (Windows Server 2022)&lt;br&gt;192.168.163.10 (static)&lt;br&gt;AD DS, DNS, DHCP&lt;br&gt;File share, Windows Server Backup" style="shape=mxgraph.networks.server;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="60" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="win11" value="&lt;b&gt;WIN11-01&lt;/b&gt; (Windows 11 Enterprise LTSC)&lt;br&gt;DHCP: 192.168.163.100-200&lt;br&gt;Joined to lab.internal&lt;br&gt;OU: Workstations" style="shape=mxgraph.networks.pc;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="600" y="450" width="80" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="laptop" value="&lt;b&gt;Host laptop&lt;/b&gt;&lt;br&gt;Windows 11, VMware Workstation" style="shape=mxgraph.networks.laptop;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="70" y="270" width="70" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e1" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="internet" target="router">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="router" target="switch">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="switch" target="dc01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="endArrow=none;html=1;strokeWidth=2;" edge="1" parent="1" source="switch" target="win11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="DHCP lease + DNS" style="endArrow=classic;html=1;dashed=1;strokeColor=#82b366;fontSize=10;" edge="1" parent="1" source="dc01" target="win11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
