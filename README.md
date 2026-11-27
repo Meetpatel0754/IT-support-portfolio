@@ -27,4 +27,4 @@ I add new projects as I build them.
 
 ## Contact
 
-Meetkumar Patel, Toronto, ON
+You can reach me via [Email](sudomeet@mkpatel.me) or connect with me on [LinkedIn](https://www.linkedin.com/in/meetkumar-patel-b40bb32a5/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bt5FlmNSkReCaF%2BUB6ybErQ%3D%3D).
